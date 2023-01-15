@@ -340,7 +340,7 @@ header {
     display: flex;
     background-color: rgb(211, 211, 198);
     height: 350px;
-    gap: 120px;
+    gap: 90px;
     justify-content: center;
     margin-bottom: 50px;
     border: 0;
@@ -384,7 +384,7 @@ header {
 }
 
 .common {
-    padding-top: 100px;
+    padding-top: 75px;
     color: rgb(94, 92, 92);
 }
 
