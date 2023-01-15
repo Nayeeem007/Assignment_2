@@ -291,6 +291,14 @@ header {
     padding-bottom: 10px;
 }
 
+.fact-image:hover {
+    width: 30%;
+    height: 30%;
+    transform: rotate(180deg);
+    transition: width 2s, height 2s, transform 2s ease-in;
+    background-color:#e4c6c6;
+}
+
 .fact-title {
     font-weight: 600;
     font-size: 45px;
@@ -400,3 +408,17 @@ header {
     padding-top: 40px;
     margin-bottom: 200px;
 }
+
+/*--------------------------
+              Transition
+  -----------------------------*/
+
+
+/* media queries */
+/* For mobile  */
+
+/* @media only screen and (max-width:688px) {
+    .G3-title{
+        grid-template-columns: repeat(1,1fr);
+    }
+} */
