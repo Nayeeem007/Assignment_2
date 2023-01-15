@@ -9,15 +9,15 @@ header {
 }
 
 /* Nav styles */
-.nav {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.flex-special{
+    display: flex;
+    gap: 55px;
 }
 
 .nav-heading {
     font-weight: 700;
     font-size: 45px;
-    margin-left: 200px;
+    margin-left: 175px;
     margin-top: 50px;
     color: #131313;
     margin-bottom: 105px;
@@ -29,7 +29,7 @@ header {
 
 .nav ul {
     display: flex;
-    margin-left: 200px;
+    margin-left: 400px;
     gap: 70px;
     color: #424242;
     font-weight: 500;
@@ -241,7 +241,7 @@ header {
 
     width: 50%;
     height: 100%;
-    /* margin: 20px 35px 30px 30px; */
+    margin: 20px 35px 30px 30px;
 }
 
 .lady-pic-btn {
@@ -255,7 +255,7 @@ header {
     border: 0;
     border-radius: 8px;
     margin-top: -85px;
-    margin-left: -40px;
+    margin-left: -70px;
 }
 
 .facts-title {
@@ -345,4 +345,5 @@ header {
     width: 1235px;
     height: 65px;
     padding-top: 40px;
+    margin-bottom: 200px;
 }
