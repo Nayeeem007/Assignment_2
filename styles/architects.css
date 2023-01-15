@@ -9,7 +9,7 @@ header {
 }
 
 /* Nav styles */
-.flex-special{
+.flex-special {
     display: flex;
     gap: 55px;
 }
@@ -240,7 +240,7 @@ header {
 .feature-img {
 
     width: 200px;
-    
+
     margin: 20px 35px 30px 30px;
 }
 
@@ -334,6 +334,58 @@ header {
 
 .spotify {
     padding-left: 170px;
+}
+
+.footer-container2 {
+    display: flex;
+    background-color: rgb(211, 211, 198);
+    height: 350px;
+    gap: 120px;
+    justify-content: center;
+    margin-bottom: 50px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.footer-img {
+    height: 50px;
+    width: 50px;
+    padding-left: 50px;
+
+}
+
+.follow a {
+    text-decoration: none;
+}
+
+.address,
+.contact,
+.follow {
+    font-size: 25px;
+    font-weight: 700px;
+    line-height: 30px;
+}
+
+.address-des {
+    font-size: 16px;
+}
+
+.contact-des {
+    font-size: 16px;
+}
+
+.follow-des {
+    font-size: 16px;
+}
+
+.link-img {
+    width: 15px;
+    height: 15px;
+}
+
+.common {
+    padding-top: 100px;
+    color: rgb(94, 92, 92);
 }
 
 .footer-des1 {
