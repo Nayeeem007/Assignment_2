@@ -294,9 +294,9 @@ header {
 .fact-image:hover {
     width: 30%;
     height: 30%;
-    transform: rotate(180deg);
-    transition: width 2s, height 2s, transform 2s ease-in;
-    background-color:#e4c6c6;
+    transform: rotate(360deg);
+    transition: width 2s, height 2s, transform 2s ease-in-out;
+    background-color:#e4c6c6; 
 }
 
 .fact-title {
